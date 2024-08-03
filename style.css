@@ -76,6 +76,11 @@ body{
     color: var(--primary-color);
 }
 
+.header h1 a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
 .header form{
     margin-top: 10px;
     /* border: 2px solid var(--primary-color); */

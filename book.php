@@ -1,3 +1,18 @@
+<?php
+include("connection.php");
+
+// Get Book Name
+$b_name=$_GET['book_name'];
+$book_name=urldecode($b_name);
+// Get Book Name
+
+// Get Data
+$select=$con->query("SELECT * FROM `books` WHERE `book_name` = '$book_name'");
+$row=mysqli_fetch_assoc($select);
+$book_id=$row['book_id'];
+$book=$row['book_name'];
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +33,7 @@
 
         <div class="header">
 
-            <h1>Holy Bible</h1>
+            <h1><a href="./home">Holy Bible</a></h1>
 
             <form action="" method="post">
 
@@ -35,7 +50,7 @@
         <div class="books-container">
 
             <div class="title">
-                <h1>Genesis</h1>
+                <h1><?php echo $book;?></h1>
             </div>
 
             <div class="chapter">
