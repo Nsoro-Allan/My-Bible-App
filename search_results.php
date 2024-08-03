@@ -26,7 +26,7 @@ if (isset($_GET['query'])) {
     <div class="main-container">
 
         <div class="header">
-            <h1><a href="./home">Holy Bible</a></h1>
+            <h1><a href="./bible">Holy Bible</a></h1>
 
             <form action="search_results" method="get">
                 <input type="search" name="query" placeholder="Search Bible Book..." value="<?php echo htmlspecialchars($search_query); ?>" required>

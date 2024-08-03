@@ -29,7 +29,7 @@ if(isset($_POST['search'])){
 
         <div class="header">
 
-            <h1><a href="./home">Holy Bible</a></h1>
+            <h1><a href="./bible">Holy Bible</a></h1>
 
             <form action="" method="POST">
 

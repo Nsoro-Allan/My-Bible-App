@@ -1,6 +1,6 @@
 RewriteEngine on
 
-RewriteRule ^home/?$ index.php [L]
+RewriteRule ^bible/?$ index.php [L]
 RewriteRule ^book/?$ book.php [L]
 RewriteRule ^search_results/?$ search_results.php [L]
 
