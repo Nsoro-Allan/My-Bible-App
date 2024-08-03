@@ -39,6 +39,7 @@ include("connection.php");
                     <tr>
                         <th>#</th>
                         <th>Book Name</th>
+                        <th>Testament</th>
                         <th>Actions</th>
                     </tr>
 
@@ -48,11 +49,13 @@ include("connection.php");
                     while($row=mysqli_fetch_assoc($select)){
                         $book_id=$row['book_id']; 
                         $book_name=$row['book_name']; 
+                        $testament=$row['testament']; 
                     ?>
 
                     <tr>
                         <td><?php echo $book_id; ?></td>
                         <td><?php echo $book_name; ?></td>
+                        <td><?php echo $testament; ?></td>
                         <td><a href="./delete_book.php?book_id=<?php echo $book_id; ?>">Delete Book</a></td>
                     </tr>
 
@@ -60,7 +63,7 @@ include("connection.php");
                     }
                     }
                     else{
-                        echo "<td colspan='3'><h1>No Books Found...</h1></td>";
+                        echo "<td colspan='4'><h1>No Books Found...</h1></td>";
                     }
                     ?>
 

@@ -6,6 +6,14 @@ if(isset($_POST['add_book'])){
     $book_name=mysqli_real_escape_string($con, $_POST['book_name']);
 
     $add_book=$con->query("INSERT INTO `books`(`book_id`,`book_name`) VALUES ('','$book_name')");
+
+    if($add_book){
+        $msg="Book Added Successfully...";
+    }
+    else{
+        $error_msg="Book Not Added...";
+    }
+
 }
 
 ?>
@@ -53,3 +61,28 @@ if(isset($_POST['add_book'])){
     </div>
 </body>
 </html>
+
+<?php
+if(isset($msg)){
+    echo "<script>
+            swal({
+                title: 'Success!',
+                text: '$msg',
+                icon: 'success',
+            }).then(function() {
+                window.location.href = 'books.php';
+            });
+    </script>";
+}
+elseif(isset($error_msg)){
+    echo "<script>
+    swal({
+        title: 'Error!',
+        text: '$error_msg',
+        icon: 'error',
+    }).then(function() {
+        window.location.href = 'add_book.php';
+    });
+    </script>";
+}
+?>
