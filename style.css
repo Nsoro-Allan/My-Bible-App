@@ -7,7 +7,7 @@
 :root{
     --primary-color: #fff;
     --bg-color: black;
-    --bg-color-hover: rgb(19, 19, 19);
+    --bg-color-hover: rgb(25, 25, 25);
     --black: black;
 }
 
@@ -123,13 +123,18 @@ body{
     flex-direction: column;
     width: 100%;
     padding: 15px;
-    justify-content: center;
-    align-items: center;
 }
 
 .books-container .title{
-    font-size: 1.3rem;
+    width: 100%;
+    border: 3.5px solid var(--bg-color);
+    font-size: 1.4rem;
+    text-align: center;
+    background: var(--bg-color);
+    color: var(--primary-color);
     margin-top: 30px;
+    padding: 10px;
+    border-radius: 8px;
 }
 
 .book-card-container{
@@ -148,10 +153,11 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--black);
+    border: 4px solid var(--black);
     border-radius: 8px;
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
+    text-align: center;
     transition: 0.3s ease-in;
 }
 
@@ -176,6 +182,24 @@ body{
     justify-content: center;
     width: 100%;
     height: 100dvh;
+}
+
+.chapter{
+    margin-top: 20px;
+}
+
+.chapter h1{
+    font-size: 2.5rem;
+}
+
+.verse{
+    margin-top: 5px;
+}
+
+.verse p{
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-top: 10px;
 }
 
 /* Books Container Styling Ends Here */
