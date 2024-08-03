@@ -31,7 +31,7 @@ include("connection.php");
             <div class="content">
 
                 <div class="buttons">
-                    <a href="#">Add New Chapter...</a>
+                    <a href="./add_chapter.php">Add New Chapter...</a>
                 </div>
 
                 <table>
@@ -48,13 +48,18 @@ include("connection.php");
                     if(mysqli_num_rows($select)>0){
                     while($row=mysqli_fetch_assoc($select)){
                         $chapter_id=$row['chapter_id']; 
-                        $book_name=$row['book_name']; 
+                        $book_id=$row['book_id']; 
                         $chapter_number=$row['chapter_number']; 
                     ?>
 
                     <tr>
                         <td><?php echo $chapter_id; ?></td>
-                        <td><?php echo $book_name; ?></td>
+                        <td><?php 
+                            $b_id=$book_id;
+                            $see=$con->query("SELECT * FROM `books` WHERE `book_id`='$book_id'");
+                            $view=mysqli_fetch_assoc($see);
+                            echo $view['book_name'];
+                         ?></td>
                         <td><?php echo $chapter_number; ?></td>
                         <td><a href="./delete_chapter.php?chapter_id=<?php echo $chapter_id; ?>">Delete Chapter</a></td>
                     </tr>
