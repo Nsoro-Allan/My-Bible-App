@@ -29,6 +29,47 @@ include("connection.php");
             </div>
 
             <div class="content">
+
+                <div class="buttons">
+                    <a href="#">Add New Chapter...</a>
+                </div>
+
+                <table>
+
+                    <tr>
+                        <th>#</th>
+                        <th>Book Name</th>
+                        <th>Chapter Number</th>
+                        <th>Actions</th>
+                    </tr>
+
+                    <?php
+                    $select=$con->query("SELECT * FROM `chapters`");
+                    if(mysqli_num_rows($select)>0){
+                    while($row=mysqli_fetch_assoc($select)){
+                        $chapter_id=$row['chapter_id']; 
+                        $book_name=$row['book_name']; 
+                        $chapter_number=$row['chapter_number']; 
+                    ?>
+
+                    <tr>
+                        <td><?php echo $chapter_id; ?></td>
+                        <td><?php echo $book_name; ?></td>
+                        <td><?php echo $chapter_number; ?></td>
+                        <td><a href="./delete_chapter.php?chapter_id=<?php echo $chapter_id; ?>">Delete Chapter</a></td>
+                    </tr>
+
+                    <?php 
+                    }
+                    }
+                    else{
+                        echo "<td colspan='4'><h1>No Chapters Found...</h1></td>";
+                    }
+                    ?>
+
+
+                </table>
+
             </div>
 
         </div>

@@ -32,15 +32,40 @@ include("connection.php");
 
                 <div class="buttons">
                     <a href="#">Add New Book...</a>
-                    <a href="#">Add New Book...</a>
-                    <a href="#">Add New Book...</a>
-                    <a href="#">Add New Book...</a>
-                    <a href="#">Add New Book...</a>
-                    <a href="#">Add New Book...</a>
-                    <a href="#">Add New Book...</a>
-                    <a href="#">Add New Book...</a>
-                    <a href="#">Add New Book...</a>
                 </div>
+
+                <table>
+
+                    <tr>
+                        <th>#</th>
+                        <th>Book Name</th>
+                        <th>Actions</th>
+                    </tr>
+
+                    <?php
+                    $select=$con->query("SELECT * FROM `books`");
+                    if(mysqli_num_rows($select)>0){
+                    while($row=mysqli_fetch_assoc($select)){
+                        $book_id=$row['book_id']; 
+                        $book_name=$row['book_name']; 
+                    ?>
+
+                    <tr>
+                        <td><?php echo $book_id; ?></td>
+                        <td><?php echo $book_name; ?></td>
+                        <td><a href="./delete_book.php?book_id=<?php echo $book_id; ?>">Delete Book</a></td>
+                    </tr>
+
+                    <?php 
+                    }
+                    }
+                    else{
+                        echo "<td colspan='3'><h1>No Books Found...</h1></td>";
+                    }
+                    ?>
+
+
+                </table>
 
             </div>
 
