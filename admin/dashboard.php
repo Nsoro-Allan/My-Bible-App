@@ -14,9 +14,25 @@ include("connection.php");
     <script src="./sweetalert.min.js"></script>
 </head>
 <body>
-    <h1><?php
-    echo $_SESSION['admin_user'];
-    ?></h1>
-    <a href="logout.php">Logout</a>
+    <!-- Scroll Bar Starts Here -->
+     <div class="scroll-bar"></div>
+    <!-- Scroll Bar Ends Here -->
+    <div class="dashboard-container">
+
+        <!-- Sidebar Starts Here -->
+        <?php include("sidebar.php");?>
+        <!-- Sidebar Ends Here -->
+
+        <!-- Container Starts Here -->
+        <div class="container">
+
+            <div class="title">
+                <h1>Dashboard</h1>
+            </div>
+
+        </div>
+        <!-- Container Ends Here -->
+
+    </div>
 </body>
 </html>
