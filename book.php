@@ -35,7 +35,7 @@ $book=$row['book_name'];
 
             <h1><a href="./home">Holy Bible</a></h1>
 
-            <form action="" method="post">
+            <form action="search_results" method="post">
 
                 <input type="search" name="search" placeholder="Search Bible Book...">
 

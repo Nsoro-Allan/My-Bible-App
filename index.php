@@ -1,5 +1,13 @@
 <?php
 include("connection.php");
+
+// Search Starts Here
+if(isset($_POST['search'])){
+    $search_value=mysqli_real_escape_string($con, $_POST['search_value']);
+    header("Location: search_results?query=$search_value");
+}
+// Search Ends Here
+
 ?>
 
 <!DOCTYPE html>
@@ -23,9 +31,9 @@ include("connection.php");
 
             <h1><a href="./home">Holy Bible</a></h1>
 
-            <form action="" method="post">
+            <form action="" method="POST">
 
-                <input type="search" name="search" placeholder="Search Bible Book...">
+                <input type="search" name="search_value" placeholder="Search Bible Book...">
 
                 <button type="submit" name="search">Search...</button>
 
@@ -60,7 +68,7 @@ include("connection.php");
                 }
                 }
                 else{
-                    echo"<center><h1>No Old Testament Books Found...</h1></center>";
+                    echo"<center><h1 style='font-size: 3rem;'>No Old Testament Books Found...</h1></center>";
                 }
                 ?>
 
@@ -87,7 +95,7 @@ include("connection.php");
                 }
                 }
                 else{
-                    echo"<center><h1>No New Testament Books Found...</h1></center>";
+                    echo"<center><h1 style='font-size: 3rem;'>No New Testament Books Found...</h1></center>";
                 }
                 ?>
 
