@@ -1,3 +1,4 @@
+<script src="./sweetalert.min.js"></script>
 <div class="sidebar">
 
     <div class="top">

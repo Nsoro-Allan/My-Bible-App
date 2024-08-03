@@ -31,7 +31,7 @@ include("connection.php");
             <div class="content">
 
                 <div class="buttons">
-                    <a href="#">Add New Book...</a>
+                    <a href="./add_book.php">Add New Book...</a>
                 </div>
 
                 <table>
