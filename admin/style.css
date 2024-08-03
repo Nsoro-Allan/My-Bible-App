@@ -165,7 +165,7 @@ body{
 }
 
 .sidebar{
-    width: 20%;
+    width: 19%;
     height: 96dvh;
     padding: 15px;
     border-radius: 10px;
@@ -266,7 +266,7 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 81%;
     height: 100dvh;
     display: flex;
     flex-direction: column;

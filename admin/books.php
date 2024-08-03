@@ -29,6 +29,19 @@ include("connection.php");
             </div>
 
             <div class="content">
+
+                <div class="buttons">
+                    <a href="#">Add New Book...</a>
+                    <a href="#">Add New Book...</a>
+                    <a href="#">Add New Book...</a>
+                    <a href="#">Add New Book...</a>
+                    <a href="#">Add New Book...</a>
+                    <a href="#">Add New Book...</a>
+                    <a href="#">Add New Book...</a>
+                    <a href="#">Add New Book...</a>
+                    <a href="#">Add New Book...</a>
+                </div>
+
             </div>
 
         </div>
