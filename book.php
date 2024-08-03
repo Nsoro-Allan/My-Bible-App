@@ -34,7 +34,7 @@ $chapters_query = $con->query("SELECT * FROM `chapters` WHERE `book_id` = '$book
         <div class="header">
             <h1><a href="./home">Holy Bible</a></h1>
             <form action="search_results" method="GET">
-                <input type="search" name="search" placeholder="Search Bible Book...">
+                <input type="search" name="search" placeholder="Search Bible Book..." required>
                 <button type="submit" name="search">Search...</button>
             </form>
         </div>

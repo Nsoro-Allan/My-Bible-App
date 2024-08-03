@@ -29,7 +29,7 @@ if (isset($_GET['query'])) {
             <h1><a href="./home">Holy Bible</a></h1>
 
             <form action="search_results" method="get">
-                <input type="search" name="query" placeholder="Search Bible Book..." value="<?php echo htmlspecialchars($search_query); ?>">
+                <input type="search" name="query" placeholder="Search Bible Book..." value="<?php echo htmlspecialchars($search_query); ?>" required>
                 <button type="submit">Search...</button>
             </form>
         </div>

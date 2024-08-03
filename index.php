@@ -33,7 +33,7 @@ if(isset($_POST['search'])){
 
             <form action="" method="POST">
 
-                <input type="search" name="search_value" placeholder="Search Bible Book...">
+                <input type="search" name="search_value" placeholder="Search Bible Book..." required>
 
                 <button type="submit" name="search">Search...</button>
 
