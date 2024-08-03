@@ -1,5 +1,5 @@
 <?php
-session_start();
+include("sessions.php");
 include("connection.php");
 
 ?>
@@ -14,6 +14,9 @@ include("connection.php");
     <script src="./sweetalert.min.js"></script>
 </head>
 <body>
-    
+    <h1><?php
+    echo $_SESSION['admin_user'];
+    ?></h1>
+    <a href="logout.php">Logout</a>
 </body>
 </html>
