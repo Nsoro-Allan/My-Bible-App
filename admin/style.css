@@ -165,7 +165,7 @@ body{
 }
 
 .sidebar{
-    width: 18%;
+    width: 20%;
     height: 96dvh;
     padding: 15px;
     border-radius: 10px;
@@ -211,13 +211,78 @@ body{
     color: var(--primary-color);
     text-decoration: none;
     border-radius: 8px;
+    transition: 0.3s ease-in;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.middle a:hover{
+    background: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.bottom h4{
+    padding: 10px 15px;
+    border: 2px solid var(--primary-color);
+    width: 100%;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.bottom a{
+    padding: 10px 15px;
+    border: 2px solid var(--primary-color);
+    width: 100%;
+    background: var(--primary-color);
+    color: var(--bg-color);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    text-transform: capitalize;
+    transition: 0.3s ease-in;
+}
+
+.bottom a:hover{
+    background: transparent;
+    color: var(--primary-color);
 }
 
 .container{
-    width: 82%;
+    width: 80%;
     height: 100dvh;
     display: flex;
     flex-direction: column;
+    border: 3px solid var(--bg-color);
+    height: 96dvh;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.container .title{
+    width: 100%;
+    padding: 15px;
+    background: var(--bg-color);
+    color: var(--primary-color);
+    border-radius: 10px;
+    text-align: center;
 }
 
 /* Dashboard Styling Ends Here */

@@ -14,9 +14,7 @@ include("connection.php");
     <script src="./sweetalert.min.js"></script>
 </head>
 <body>
-    <!-- Scroll Bar Starts Here -->
-     <div class="scroll-bar"></div>
-    <!-- Scroll Bar Ends Here -->
+
     <div class="dashboard-container">
 
         <!-- Sidebar Starts Here -->
@@ -27,7 +25,10 @@ include("connection.php");
         <div class="container">
 
             <div class="title">
-                <h1>Dashboard</h1>
+                <h1>[My-Bible App] - Dashboard</h1>
+            </div>
+
+            <div class="content">
             </div>
 
         </div>
