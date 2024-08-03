@@ -1,6 +1,13 @@
 <?php
 include("connection.php");
 
+// Search Starts Here
+if(isset($_POST['search'])){
+    $search_value=mysqli_real_escape_string($con, $_POST['search_value']);
+    header("Location: search_results?query=$search_value");
+}
+// Search Ends Here
+
 // Get Book Name
 $b_name = $_GET['book_name'];
 $book_name = urldecode($b_name);
@@ -32,11 +39,18 @@ $chapters_query = $con->query("SELECT * FROM `chapters` WHERE `book_id` = '$book
     <div class="main-container">
 
         <div class="header">
+
+            <img src="./Images/icon.webp" alt="Icon">
             <h1><a href="./bible">Holy Bible</a></h1>
-            <form action="search_results" method="GET">
-                <input type="search" name="search" placeholder="Search Bible Book..." required>
+            
+            <form action="" method="POST">
+
+                <input type="search" name="search_value" placeholder="Search Bible Book..." required>
+
                 <button type="submit" name="search">Search...</button>
+
             </form>
+
         </div>
 
         <!-- Books Container Starts Here -->

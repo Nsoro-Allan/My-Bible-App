@@ -71,6 +71,12 @@ body{
     align-items: center;
 }
 
+.header img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
 .header h1{
     font-size: 4rem;
     color: var(--primary-color);

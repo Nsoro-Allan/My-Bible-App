@@ -29,6 +29,7 @@ if(isset($_POST['search'])){
 
         <div class="header">
 
+            <img src="./Images/icon.webp" alt="Icon">
             <h1><a href="./bible">Holy Bible</a></h1>
 
             <form action="" method="POST">
