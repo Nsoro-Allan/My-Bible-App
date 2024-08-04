@@ -227,6 +227,10 @@ body{
     .header form{
         width: 95%;
     }
+    .book-card{
+        width: 350px;
+        height: 300px;
+    }
 }
 
 /* Responsive Styling Ends Here */
