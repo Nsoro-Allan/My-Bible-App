@@ -217,3 +217,17 @@ body{
 
 /* Main Container Styling Ends Here */
 
+/* Responsive Styling Starts Here */
+
+@media screen and (min-width: 200px) and (max-width: 768px){
+    .header h1{
+        font-size: 3rem;
+        color: var(--primary-color);
+    }
+    .header form{
+        width: 95%;
+    }
+}
+
+/* Responsive Styling Ends Here */
+

@@ -2,13 +2,13 @@
 include("sessions.php");
 include("connection.php");
 
-if(isset($_POST['add_book'])){
+if(isset($_POST['add_chapter'])){
     $book_id=$_POST['book_id'];
     $chapter_number=$_POST['chapter_number'];
 
     $add_chapter=$con->query("INSERT INTO `chapters`(`chapter_id`,`book_id`,`chapter_number`) VALUES ('','$book_id','$chapter_number')");
 
-    if($add_book){
+    if($add_chapter){
         $msg="Chapter Added Successfully...";
     }
     else{

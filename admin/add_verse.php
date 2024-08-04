@@ -2,17 +2,18 @@
 include("sessions.php");
 include("connection.php");
 
-if(isset($_POST['add_book'])){
-    $book_id=$_POST['book_id'];
-    $chapter_number=$_POST['chapter_number'];
+if(isset($_POST['add_verse'])){
+    $chapter_id=$_POST['chapter_id'];
+    $verse_number=$_POST['verse_number'];
+    $text=mysqli_real_escape_string($con, $_POST['text']);
 
-    $add_chapter=$con->query("INSERT INTO `chapters`(`chapter_id`,`book_id`,`chapter_number`) VALUES ('','$book_id','$chapter_number')");
+    $add_verse=$con->query("INSERT INTO `verses`(`verse_id`, `chapter_id`, `verse_number`, `text`) VALUES ('','$chapter_id','$verse_number','$text')");
 
-    if($add_book){
-        $msg="Chapter Added Successfully...";
+    if($add_verse){
+        $msg="Verse Added Successfully...";
     }
     else{
-        $error_msg="Chapter Not Added...";
+        $error_msg="Verse Not Added...";
     }
 
 }
@@ -54,10 +55,16 @@ if(isset($_POST['add_book'])){
                     $select=$con->query("SELECT * FROM `chapters`");
                     while($row=mysqli_fetch_assoc($select)){
                         $chapter_id=$row['chapter_id'];
+                        $book_id=$row['book_id'];
                         $chapter_number=$row['chapter_number'];
+
+                     $select1=$con->query("SELECT * FROM `books` WHERE `book_id`='$book_id'");
+                     while($row1=mysqli_fetch_assoc($select1)){
+                        $book_name=$row1['book_name'];                
                     ?>
-                        <option value='<?php echo $chapter_id;?>'><?php echo $chapter_number;?></option>
-                    <?php    
+                        <option value='<?php echo $chapter_id;?>'><?php echo $book_name;?>, Chapter: <?php echo $chapter_number;?></option>
+                    <?php 
+                    }   
                     }
                     ?>
                 </select>
@@ -68,7 +75,7 @@ if(isset($_POST['add_book'])){
                 <label>Verse Text:</label>
                 <textarea name="text" placeholder="Enter your verse text..."></textarea>
 
-                <button type="submit" name="add_chapter">Add New Chapter..</button>
+                <button type="submit" name="add_verse">Add New Verse..</button>
 
             </form>
 
