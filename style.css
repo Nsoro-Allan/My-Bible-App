@@ -6,9 +6,9 @@
 
 :root{
     --primary-color: #fff;
-    --bg-color: black;
+    --bg-color: rgba(0, 0, 0, 0.87);
     --bg-color-hover: rgb(25, 25, 25);
-    --black: black;
+    --black: rgba(0, 0, 0, 0.87);
 }
 
 html{

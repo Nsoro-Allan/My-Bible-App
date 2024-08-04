@@ -6,7 +6,7 @@
 
 :root{
     --primary-color: #fff;
-    --bg-color: black;
+    --bg-color: rgba(0, 0, 0, 0.87);
     --bg-color-hover: rgb(45, 45, 45);
     --black: black;
 }
@@ -25,29 +25,6 @@ body{
     color: var(--black);
 }
 
-/* Scroll Bar Styling Starts Here */
-
-.scroll-bar{
-    position: fixed;
-    height: 5px;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: var(--bg-color);
-    animation: scroll linear;
-    animation-timeline: scroll();
-}
-
-@keyframes scroll {
-    from{
-        width: 0px;
-    }
-    to{
-        width: 100%;
-    }
-}
-
-/* Scroll Bar Styling Ends Here */
 
 /* Form Container Styling Starts Here */
 
@@ -85,7 +62,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: var(--bg-color-hover);
+    background: var(--bg-color);
 }
 
 .form-right .title{
@@ -139,14 +116,14 @@ body{
     border: none;
     font-size: 0.9rem;
     font-weight: 500;
-    background: var(--bg-color-hover);
+    background: var(--bg-color);
     color: var(--primary-color);
     border-radius: 8px;
     transition: 0.3s ease-in;
 }
 
 .form-right form button:hover{
-    background: var(--bg-color);
+    background: var(--bg-color-hover);
 }
 
 /* Form Container Styling Ends Here */
