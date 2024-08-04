@@ -31,7 +31,7 @@ include("connection.php");
             <div class="content">
 
                 <div class="buttons">
-                    <a href="#">Add New Verse...</a>
+                    <a href="add_verse.php">Add New Verse...</a>
                 </div>
 
                 <table>

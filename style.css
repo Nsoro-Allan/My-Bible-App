@@ -138,7 +138,7 @@ body{
 
 .books-container .title{
     width: 100%;
-    border: 3.5px solid var(--bg-color);
+    /* border: 3.5px solid var(--bg-color); */
     font-size: 1.4rem;
     text-align: center;
     background: var(--bg-color);
