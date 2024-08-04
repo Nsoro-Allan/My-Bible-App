@@ -58,7 +58,7 @@ include("connection.php");
                         <td><?php echo $verse_id; ?></td>
                         <td><?php echo $chapter_id; ?></td>
                         <td><?php echo $verse_number; ?></td>
-                        <td><textarea readonly><?php echo $verse_number; ?></textarea></td>
+                        <td><textarea readonly><?php echo $text; ?></textarea></td>
                         <td><a href="./delete_verse.php?verse_id=<?php echo $verse_id; ?>">Delete Verse</a></td>
                     </tr>
 

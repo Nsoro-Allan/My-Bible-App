@@ -320,6 +320,12 @@ body{
     text-transform: capitalize;
 }
 
+.content tr td textarea{
+    padding: 10px;
+    width: 100%;
+    resize: vertical;
+}
+
 .content tr td a{
     display: flex;
     flex-direction: column;
