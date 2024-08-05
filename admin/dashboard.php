@@ -1,7 +1,7 @@
 <?php
 include("sessions.php");
 include("connection.php");
-
+include("total_calculations.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +29,29 @@ include("connection.php");
             </div>
 
             <div class="content">
+
+                <div class="dashboard-card-container">
+
+                    <div class="dashboard-card">
+                        <img src="./Images/icon.webp" alt="Icon">
+                        <h4>Total Books:</h4>
+                        <a href="./books.php"><?php echo number_format($total_books);?></a>
+                    </div>
+
+                    <div class="dashboard-card">
+                        <img src="./Images/icon.webp" alt="Icon">
+                        <h4>Total Chapters:</h4>
+                        <a href="./chapters.php"><?php echo  number_format($total_chapters);?></a>
+                    </div>
+
+                    <div class="dashboard-card">
+                        <img src="./Images/icon.webp" alt="Icon">
+                        <h4>Total Verses:</h4>
+                        <a href="./verses.php"><?php echo  number_format($total_verses);?></a>
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
