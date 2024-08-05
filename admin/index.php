@@ -6,7 +6,7 @@ if(isset($_POST['login'])){
     $username=mysqli_real_escape_string($con, $_POST['username']);
     $password=mysqli_real_escape_string($con, $_POST['password']);
 
-    $login=$con->query("SELECT * FROM `admin`");
+    $login=$con->query("SELECT * FROM `admin` WHERE `username` = '$username' AND `password` = '$password'");
 
     if($row=$login->fetch_assoc()){
         $_SESSION['admin_user']=$username;
