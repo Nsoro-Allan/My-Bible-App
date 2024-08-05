@@ -89,7 +89,6 @@ body{
 
 .header form{
     margin-top: 10px;
-    /* border: 2px solid var(--primary-color); */
     padding: 10px;
     width: 40%;
     border-radius: 8px;
@@ -113,7 +112,7 @@ body{
     border: none;
     width: 30%;
     text-align: center;
-    background: var(--bg-color);
+    background: var(--bg-color-hover);
     color: var(--primary-color);
     font-weight: 700;
     font-size: 0.9rem;
@@ -121,7 +120,7 @@ body{
 }
 
 .header form button:hover{
-    background: var(--bg-color-hover);
+    background: var(--bg-color);
     cursor: pointer;
 }
 
