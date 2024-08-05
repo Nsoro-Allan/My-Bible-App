@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 04, 2024 at 01:59 PM
+-- Generation Time: Aug 05, 2024 at 11:15 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -38,7 +38,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`admin_id`, `username`, `password`) VALUES
-(1, 'admin', 'admin');
+(1, 'admin', 'admin@123');
 
 -- --------------------------------------------------------
 
@@ -1486,7 +1486,75 @@ INSERT INTO `verses` (`verse_id`, `chapter_id`, `verse_number`, `text`) VALUES
 (135, 5, 29, 'He named him Noah and said, “He will comfort us in the labor and painful toil of our hands caused by the ground the LORD has cursed.”'),
 (136, 5, 30, 'After Noah was born, Lamech lived 595 years and had other sons and daughters.'),
 (137, 5, 31, 'Altogether, Lamech lived a total of 777 years, and then he died.'),
-(138, 5, 32, 'After Noah was 500 years old, he became the father of Shem, Ham and Japheth.');
+(138, 5, 32, 'After Noah was 500 years old, he became the father of Shem, Ham and Japheth.'),
+(139, 6, 1, 'When human beings began to increase in number on the earth and daughters were born to them,'),
+(140, 6, 2, 'the sons of God saw that the daughters of humans were beautiful, and they married any of them they chose.'),
+(141, 6, 3, 'Then the LORD said, “My Spirit will not contend with humans forever, for they are mortal; their days will be a hundred and twenty years.”'),
+(142, 6, 4, 'The Nephilim were on the earth in those days—and also afterward—when the sons of God went to the daughters of humans and had children by them. They were the heroes of old, men of renown.'),
+(143, 6, 5, 'The LORD saw how great the wickedness of the human race had become on the earth, and that every inclination of the thoughts of the human heart was only evil all the time.'),
+(144, 6, 6, 'The LORD regretted that he had made human beings on the earth, and his heart was deeply troubled.'),
+(145, 6, 7, 'So the LORD said, “I will wipe from the face of the earth the human race I have created—and with them the animals, the birds and the creatures that move along the ground—for I regret that I have made them.”'),
+(146, 6, 8, 'But Noah found favor in the eyes of the LORD.'),
+(147, 6, 9, 'This is the account of Noah and his family. Noah was a righteous man, blameless among the people of his time, and he walked faithfully with God.'),
+(148, 6, 10, 'Noah had three sons: Shem, Ham and Japheth.'),
+(149, 6, 11, 'Now the earth was corrupt in God’s sight and was full of violence.'),
+(150, 6, 12, 'God saw how corrupt the earth had become, for all the people on earth had corrupted their ways.'),
+(151, 6, 13, 'So God said to Noah, “I am going to put an end to all people, for the earth is filled with violence because of them. I am surely going to destroy both them and the earth.'),
+(152, 6, 14, 'So make yourself an ark of cypress wood; make rooms in it and coat it with pitch inside and out.'),
+(153, 6, 15, 'This is how you are to build it: The ark is to be three hundred cubits long, fifty cubits wide and thirty cubits high.'),
+(154, 6, 16, 'Make a roof for it, leaving below the roof an opening one cubit high all around. Put a door in the side of the ark and make lower, middle and upper decks.'),
+(155, 6, 17, 'I am going to bring floodwaters on the earth to destroy all life under the heavens, every creature that has the breath of life in it. Everything on earth will perish.'),
+(156, 6, 18, 'But I will establish my covenant with you, and you will enter the ark—you and your sons and your wife and your sons’ wives with you.'),
+(157, 6, 19, 'You are to bring into the ark two of all living creatures, male and female, to keep them alive with you.'),
+(158, 6, 20, 'Two of every kind of bird, of every kind of animal and of every kind of creature that moves along the ground will come to you to be kept alive.'),
+(159, 6, 21, 'You are to take every kind of food that is to be eaten and store it away as food for you and for them.'),
+(160, 6, 22, 'Noah did everything just as God commanded him.'),
+(161, 7, 1, 'The LORD then said to Noah, “Go into the ark, you and your whole family, because I have found you righteous in this generation.'),
+(162, 7, 2, 'Take with you seven pairs of every kind of clean animal, a male and its mate, and one pair of every kind of unclean animal, a male and its mate,'),
+(163, 7, 3, 'and also seven pairs of every kind of bird, male and female, to keep their various kinds alive throughout the earth.'),
+(164, 7, 4, 'Seven days from now I will send rain on the earth for forty days and forty nights, and I will wipe from the face of the earth every living creature I have made.”'),
+(165, 7, 5, 'And Noah did all that the LORD commanded him.'),
+(166, 7, 6, 'Noah was six hundred years old when the floodwaters came on the earth.'),
+(167, 7, 7, 'And Noah and his sons and his wife and his sons’ wives entered the ark to escape the waters of the flood.'),
+(168, 7, 8, 'Pairs of clean and unclean animals, of birds and of all creatures that move along the ground,'),
+(169, 7, 9, 'male and female, came to Noah and entered the ark, as God had commanded Noah.'),
+(170, 7, 10, 'And after the seven days the floodwaters came on the earth.'),
+(171, 7, 11, 'In the six hundredth year of Noah’s life, on the seventeenth day of the second month—on that day all the springs of the great deep burst forth, and the floodgates of the heavens were opened.'),
+(172, 7, 12, 'And rain fell on the earth forty days and forty nights.'),
+(173, 7, 13, 'On that very day Noah and his sons, Shem, Ham and Japheth, together with his wife and the wives of his three sons, entered the ark.'),
+(174, 7, 14, 'They had with them every wild animal according to its kind, all livestock according to their kinds, every creature that moves along the ground according to its kind and every bird according to its kind, everything with wings.'),
+(175, 7, 15, 'Pairs of all creatures that have the breath of life in them came to Noah and entered the ark.'),
+(176, 7, 16, 'The animals going in were male and female of every living thing, as God had commanded Noah. Then the LORD shut him in.'),
+(177, 7, 17, 'For forty days the flood kept coming on the earth, and as the waters increased they lifted the ark high above the earth.'),
+(178, 7, 18, 'The waters rose and increased greatly on the earth, and the ark floated on the surface of the water.'),
+(179, 7, 19, 'They rose greatly on the earth, and all the high mountains under the entire heavens were covered.'),
+(180, 7, 20, 'The waters rose and covered the mountains to a depth of more than fifteen cubits.'),
+(181, 7, 21, 'Every living thing that moved on land perished—birds, livestock, wild animals, all the creatures that swarm over the earth, and all mankind.'),
+(182, 7, 22, 'Everything on dry land that had the breath of life in its nostrils died.'),
+(183, 7, 23, 'Every living thing on the face of the earth was wiped out; people and animals and the creatures that move along the ground and the birds were wiped from the earth. Only Noah was left, and those with him in the ark.'),
+(184, 7, 24, 'The waters flooded the earth for a hundred and fifty days.'),
+(185, 8, 1, 'But God remembered Noah and all the wild animals and the livestock that were with him in the ark, and he sent a wind over the earth, and the waters receded.'),
+(186, 8, 2, 'Now the springs of the deep and the floodgates of the heavens had been closed, and the rain had stopped falling from the sky.'),
+(187, 8, 3, 'The water receded steadily from the earth. At the end of the hundred and fifty days the water had gone down,'),
+(188, 8, 4, 'and on the seventeenth day of the seventh month the ark came to rest on the mountains of Ararat.'),
+(189, 8, 5, 'The waters continued to recede until the tenth month, and on the first day of the tenth month the tops of the mountains became visible.'),
+(190, 8, 6, 'After forty days Noah opened a window he had made in the ark'),
+(191, 8, 7, 'and sent out a raven, and it kept flying back and forth until the water had dried up from the earth.'),
+(192, 8, 8, 'Then he sent out a dove to see if the water had receded from the surface of the ground.'),
+(193, 8, 9, 'But the dove could find no place to set its feet because there was water over all the surface of the earth; so it returned to Noah in the ark. He reached out his hand and took the dove and brought it back to himself in the ark.'),
+(194, 8, 10, 'He waited seven more days and again sent out the dove from the ark.'),
+(195, 8, 11, 'When the dove returned to him in the evening, there in its beak was a freshly plucked olive leaf! Then Noah knew that the water had receded from the earth.'),
+(196, 8, 12, 'He waited seven more days and sent the dove out again, but this time it did not return to him.'),
+(197, 8, 13, 'By the first day of the first month of Noah’s six hundred and first year, the water had dried up from the earth. Noah then removed the covering from the ark and saw that the surface of the ground was dry.'),
+(198, 8, 14, 'By the twenty-seventh day of the second month the earth was completely dry.'),
+(199, 8, 15, 'Then God said to Noah,'),
+(200, 8, 16, '“Come out of the ark, you and your wife and your sons and their wives.'),
+(201, 8, 17, 'Bring out every kind of living creature that is with you—the birds, the animals, and all the creatures that move along the ground—so they can multiply on the earth and be fruitful and increase in number on it.”'),
+(202, 8, 18, 'So Noah came out, together with his sons and his wife and his sons’ wives.'),
+(203, 8, 19, 'All the animals and all the creatures that move along the ground and all the birds—everything that moves on land—came out of the ark, one kind after another.'),
+(204, 8, 20, 'Then Noah built an altar to the LORD and, taking some of all the clean animals and clean birds, he sacrificed burnt offerings on it.'),
+(205, 8, 21, 'The LORD smelled the pleasing aroma and said in his heart: “Never again will I curse the ground because of humans, even though every inclination of the human heart is evil from childhood. And never again will I destroy all living creatures, as I have done.'),
+(206, 8, 22, '“As long as the earth endures, seedtime and harvest, cold and heat, summer and winter, day and night will never cease.”');
 
 --
 -- Indexes for dumped tables
@@ -1544,7 +1612,7 @@ ALTER TABLE `chapters`
 -- AUTO_INCREMENT for table `verses`
 --
 ALTER TABLE `verses`
-  MODIFY `verse_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=139;
+  MODIFY `verse_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=207;
 
 --
 -- Constraints for dumped tables
