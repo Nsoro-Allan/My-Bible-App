@@ -1,3 +1,8 @@
+<!-- Loader Starts Here -->
+<?php
+    include("loader.php");
+?>
+<!-- Loader Ends Here -->
 <script src="./sweetalert.min.js"></script>
 <div class="sidebar">
 

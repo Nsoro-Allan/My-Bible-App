@@ -29,7 +29,11 @@ if(isset($_POST['login'])){
     <script src="./sweetalert.min.js"></script>
 </head>
 <body>
-
+    <!-- Loader Starts Here -->
+    <?php
+        include("loader.php");
+    ?>
+    <!-- Loader Ends Here -->
     <!-- Form Container Starts Here -->
 
     <div class="form-container">

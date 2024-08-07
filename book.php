@@ -31,6 +31,11 @@ $chapters_query = $con->query("SELECT * FROM `chapters` WHERE `book_id` = '$book
     <link rel="shortcut icon" href="./Images/icon.webp" type="image/x-icon">
 </head>
 <body>
+    <!-- Loader Starts Here -->
+    <?php
+        include("loader.php");
+    ?>
+    <!-- Loader Ends Here -->
     <!-- Scroll Bar Starts Here -->
     <div class="scroll-bar"></div>
     <!-- Scroll Bar Ends Here -->
