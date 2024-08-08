@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 07, 2024 at 11:58 AM
+-- Generation Time: Aug 08, 2024 at 12:42 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -1730,7 +1730,48 @@ INSERT INTO `verses` (`verse_id`, `chapter_id`, `verse_number`, `text`) VALUES
 (379, 15, 18, 'On that day the Lord made a covenant with Abram and said, “To your descendants I give this land, from the Wadi of Egypt to the great river, the Euphrates—'),
 (380, 15, 19, 'the land of the Kenites, Kenizzites, Kadmonites,'),
 (381, 15, 20, 'Hittites, Perizzites, Rephaites,'),
-(382, 15, 21, 'Amorites, Canaanites, Girgashites and Jebusites.”');
+(382, 15, 21, 'Amorites, Canaanites, Girgashites and Jebusites.”'),
+(383, 16, 4, 'He slept with Hagar, and she conceived. When she knew she was pregnant, she began to despise her mistress.'),
+(384, 16, 5, 'Then Sarai said to Abram, “You are responsible for the wrong I am suffering. I put my slave in your arms, and now that she knows she is pregnant, she despises me. May the Lord judge between you and me.”'),
+(385, 16, 6, '“Your slave is in your hands,” Abram said. “Do with her whatever you think best.” Then Sarai mistreated Hagar; so she fled from her.'),
+(386, 16, 7, 'The angel of the Lord found Hagar near a spring in the desert; it was the spring that is beside the road to Shur.'),
+(387, 16, 8, 'And he said, “Hagar, slave of Sarai, where have you come from, and where are you going?” “I’m running away from my mistress Sarai,” she answered.'),
+(388, 16, 9, 'Then the angel of the Lord told her, “Go back to your mistress and submit to her.”'),
+(389, 16, 10, 'The angel added, “I will increase your descendants so much that they will be too numerous to count.”'),
+(390, 16, 11, 'The angel of the Lord also said to her: “You are now pregnant and you will give birth to a son. You shall name him Ishmael, for the Lord has heard of your misery.'),
+(391, 16, 12, 'He will be a wild donkey of a man; his hand will be against everyone and everyone’s hand against him, and he will live in hostility toward all his brothers.”'),
+(392, 16, 13, 'She gave this name to the Lord who spoke to her: “You are the God who sees me,” for she said, “I have now seen the One who sees me.”'),
+(393, 16, 14, 'That is why the well was called Beer Lahai Roi; it is still there, between Kadesh and Bered.');
+INSERT INTO `verses` (`verse_id`, `chapter_id`, `verse_number`, `text`) VALUES
+(394, 16, 15, 'So Hagar bore Abram a son, and Abram gave the name Ishmael to the son she had borne.'),
+(395, 16, 16, 'Abram was eighty-six years old when Hagar bore him Ishmael.'),
+(396, 17, 1, 'When Abram was ninety-nine years old, the Lord appeared to him and said, “I am God Almighty; walk before me faithfully and be blameless.'),
+(397, 17, 2, 'Then I will make my covenant between me and you and will greatly increase your numbers.”'),
+(398, 17, 3, 'Abram fell facedown, and God said to him,'),
+(399, 17, 4, '“As for me, this is my covenant with you: You will be the father of many nations.'),
+(400, 17, 5, 'No longer will you be called Abram; your name will be Abraham, for I have made you a father of many nations.'),
+(401, 17, 6, 'I will make you very fruitful; I will make nations of you, and kings will come from you.'),
+(402, 17, 7, 'I will establish my covenant as an everlasting covenant between me and you and your descendants after you for the generations to come, to be your God and the God of your descendants after you.'),
+(403, 17, 8, 'The whole land of Canaan, where you now reside as a foreigner, I will give as an everlasting possession to you and your descendants after you; and I will be their God.”'),
+(404, 17, 9, 'Then God said to Abraham, “As for you, you must keep my covenant, you and your descendants after you for the generations to come.'),
+(405, 17, 10, 'This is my covenant with you and your descendants after you, the covenant you are to keep: Every male among you shall be circumcised.'),
+(406, 17, 11, 'You are to undergo circumcision, and it will be the sign of the covenant between me and you.'),
+(407, 17, 12, 'For the generations to come every male among you who is eight days old must be circumcised, including those born in your household or bought with money from a foreigner—those who are not your offspring.'),
+(408, 17, 13, 'Whether born in your household or bought with your money, they must be circumcised. My covenant in your flesh is to be an everlasting covenant.'),
+(409, 17, 14, 'Any uncircumcised male, who has not been circumcised in the flesh, will be cut off from his people; he has broken my covenant.”'),
+(410, 17, 15, 'God also said to Abraham, “As for Sarai your wife, you are no longer to call her Sarai; her name will be Sarah.'),
+(411, 17, 16, 'I will bless her and will surely give you a son by her. I will bless her so that she will be the mother of nations; kings of peoples will come from her.”'),
+(412, 17, 17, 'Abraham fell facedown; he laughed and said to himself, “Will a son be born to a man a hundred years old? Will Sarah bear a child at the age of ninety?”'),
+(413, 17, 18, 'And Abraham said to God, “If only Ishmael might live under your blessing!”'),
+(414, 17, 19, 'Then God said, “Yes, but your wife Sarah will bear you a son, and you will call him Isaac. I will establish my covenant with him as an everlasting covenant for his descendants after him.'),
+(415, 17, 20, 'And as for Ishmael, I have heard you: I will surely bless him; I will make him fruitful and will greatly increase his numbers. He will be the father of twelve rulers, and I will make him into a great nation.'),
+(416, 17, 21, 'But my covenant I will establish with Isaac, whom Sarah will bear to you by this time next year.”'),
+(417, 17, 22, 'When he had finished speaking with Abraham, God went up from him.'),
+(418, 17, 23, 'On that very day Abraham took his son Ishmael and all those born in his household or bought with his money, every male in his household, and circumcised them, as God told him.'),
+(419, 17, 24, 'Abraham was ninety-nine years old when he was circumcised,'),
+(420, 17, 25, 'and his son Ishmael was thirteen;'),
+(421, 17, 26, 'Abraham and his son Ishmael were both circumcised on that same day.'),
+(422, 17, 27, 'And every male in Abraham’s household, including those born in his household or bought from a foreigner, was circumcised with him.');
 
 --
 -- Indexes for dumped tables
@@ -1788,7 +1829,7 @@ ALTER TABLE `chapters`
 -- AUTO_INCREMENT for table `verses`
 --
 ALTER TABLE `verses`
-  MODIFY `verse_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=383;
+  MODIFY `verse_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=423;
 
 --
 -- Constraints for dumped tables
