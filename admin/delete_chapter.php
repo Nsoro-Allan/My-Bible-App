@@ -32,7 +32,7 @@ echo "
             text: '$msg',
             icon: 'success',
         }).then(function() {
-            window.location.href = 'chapters.php';
+            window.location.href = 'chapters';
         });
     </script>
 </body>
@@ -59,7 +59,7 @@ echo "
             text: '$error_msg',
             icon: 'success',
         }).then(function() {
-            window.location.href = 'chapters.php';
+            window.location.href = 'chapters';
         });
     </script>
 </body>

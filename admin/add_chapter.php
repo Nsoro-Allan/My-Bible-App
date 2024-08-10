@@ -100,7 +100,7 @@ if(isset($msg)){
                 text: '$msg',
                 icon: 'success',
             }).then(function() {
-                window.location.href = 'chapters.php';
+                window.location.href = 'chapters';
             });
     </script>";
 }
@@ -111,7 +111,7 @@ elseif(isset($error_msg)){
         text: '$error_msg',
         icon: 'error',
     }).then(function() {
-        window.location.href = 'add_chapter.php';
+        window.location.href = 'add_chapter';
     });
     </script>";
 }

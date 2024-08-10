@@ -70,7 +70,7 @@ if(isset($msg)){
                 text: '$msg',
                 icon: 'success',
             }).then(function() {
-                window.location.href = 'books.php';
+                window.location.href = 'books';
             });
     </script>";
 }
@@ -81,7 +81,7 @@ elseif(isset($error_msg)){
         text: '$error_msg',
         icon: 'error',
     }).then(function() {
-        window.location.href = 'add_book.php';
+        window.location.href = 'add_book';
     });
     </script>";
 }

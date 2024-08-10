@@ -1,0 +1,22 @@
+RewriteEngine on
+
+RewriteRule ^login/?$ index.php [L]
+RewriteRule ^dashboard/?$ dashboard.php [L]
+RewriteRule ^books/?$ books.php [L]
+RewriteRule ^chapters/?$ chapters.php [L]
+RewriteRule ^verses/?$ verses.php [L]
+RewriteRule ^account_settings/?$ account_settings.php [L]
+RewriteRule ^logout/?$ logout.php [L]
+RewriteRule ^add_book/?$ add_book.php [L]
+RewriteRule ^add_chapter/?$ add_chapter.php [L]
+RewriteRule ^add_verse/?$ add_verse.php [L]
+RewriteRule ^add_chapter/?$ add_chapter.php [L]
+RewriteRule ^delete_book/?$ delete_book.php [L]
+RewriteRule ^delete_chapter/?$ delete_chapter.php [L]
+RewriteRule ^delete_verse/?$ delete_verse.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ 404.php [L]
+
+

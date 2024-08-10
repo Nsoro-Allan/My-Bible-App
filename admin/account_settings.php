@@ -86,7 +86,7 @@ if(isset($msg)){
                 text: '$msg',
                 icon: 'success',
             }).then(function() {
-                window.location.href = 'account_settings.php';
+                window.location.href = 'account_settings';
             });
     </script>";
 }
@@ -97,7 +97,7 @@ elseif(isset($error_msg)){
         text: '$error_msg',
         icon: 'error',
     }).then(function() {
-        window.location.href = 'account_settings.php';
+        window.location.href = 'account_settings';
     });
     </script>";
 }

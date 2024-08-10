@@ -23,7 +23,7 @@ echo "
             text: '$msg',
             icon: 'success',
         }).then(function() {
-            window.location.href = 'index.php';
+            window.location.href = 'login';
         });
     </script>
 </body>

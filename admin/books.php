@@ -31,7 +31,7 @@ include("connection.php");
             <div class="content">
 
                 <div class="buttons">
-                    <a href="./add_book.php">Add New Book...</a>
+                    <a href="./add_book">Add New Book...</a>
                 </div>
 
                 <table>
@@ -56,7 +56,7 @@ include("connection.php");
                         <td><?php echo $book_id; ?></td>
                         <td><?php echo $book_name; ?></td>
                         <td><?php echo $testament; ?></td>
-                        <td><a href="./delete_book.php?book_id=<?php echo $book_id; ?>">Delete Book</a></td>
+                        <td><a href="./delete_book?book_id=<?php echo $book_id; ?>">Delete Book</a></td>
                     </tr>
 
                     <?php 

@@ -78,7 +78,7 @@ if(isset($msg)){
                 text: '$msg',
                 icon: 'success',
             }).then(function() {
-                window.location.href = 'dashboard.php';
+                window.location.href = 'dashboard';
             });
     </script>";
 }
@@ -89,7 +89,7 @@ elseif(isset($error_msg)){
         text: '$error_msg',
         icon: 'error',
     }).then(function() {
-        window.location.href = 'index.php';
+        window.location.href = 'login';
     });
     </script>";
 }

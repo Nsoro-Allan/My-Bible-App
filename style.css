@@ -184,7 +184,7 @@ body{
     text-decoration: none;
     font-size: 1.7rem;
     font-weight: 500;
-    border: 2px solid var(--primary-color);
+    /* border: 2px solid var(--primary-color); */
     border-radius: 8px;
     display: flex;
     flex-direction: column;

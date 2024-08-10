@@ -31,7 +31,7 @@ include("connection.php");
             <div class="content">
 
                 <div class="buttons">
-                    <a href="./add_chapter.php">Add New Chapter...</a>
+                    <a href="./add_chapter">Add New Chapter...</a>
                 </div>
 
                 <table>
@@ -61,7 +61,7 @@ include("connection.php");
                             echo $view['book_name'];
                          ?></td>
                         <td><?php echo $chapter_number; ?></td>
-                        <td><a href="./delete_chapter.php?chapter_id=<?php echo $chapter_id; ?>">Delete Chapter</a></td>
+                        <td><a href="./delete_chapter?chapter_id=<?php echo $chapter_id; ?>">Delete Chapter</a></td>
                     </tr>
 
                     <?php 

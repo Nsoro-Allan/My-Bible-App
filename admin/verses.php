@@ -31,7 +31,7 @@ include("connection.php");
             <div class="content">
 
                 <div class="buttons">
-                    <a href="add_verse.php">Add New Verse...</a>
+                    <a href="add_verse">Add New Verse...</a>
                 </div>
 
                 <table>
@@ -59,7 +59,7 @@ include("connection.php");
                         <td><?php echo $chapter_id; ?></td>
                         <td><?php echo $verse_number; ?></td>
                         <td><textarea readonly><?php echo $text; ?></textarea></td>
-                        <td><a href="./delete_verse.php?verse_id=<?php echo $verse_id; ?>">Delete Verse</a></td>
+                        <td><a href="./delete_verse?verse_id=<?php echo $verse_id; ?>">Delete Verse</a></td>
                     </tr>
 
                     <?php 

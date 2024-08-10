@@ -12,16 +12,16 @@
     </div>
 
     <div class="middle">
-        <a href="./dashboard.php">Dashboard</a>
-        <a href="./books.php">Books</a>
-        <a href="./chapters.php">Chapters</a>
-        <a href="./verses.php">Verses</a>
-        <a href="./account_settings.php">Account Settings</a>
+        <a href="./dashboard">Dashboard</a>
+        <a href="./books">Books</a>
+        <a href="./chapters">Chapters</a>
+        <a href="./verses">Verses</a>
+        <a href="./account_settings">Account Settings</a>
     </div>
 
     <div class="bottom">
         <h4><?php echo $_SESSION['admin_user'];?></h4>
-        <a href="./logout.php">Logout</a>
+        <a href="./logout">Logout</a>
     </div>
 
 </div>
