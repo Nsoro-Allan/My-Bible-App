@@ -20,9 +20,9 @@ echo "
 <head>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>AC - Shop - Delete Chapter</title>
+    <title>My - Bible App - Delete Chapter</title>
     <link rel='stylesheet' href='style.css'>
-    <link rel='shortcut icon' href='./images/logo.ico' type='image/x-icon'>
+    <link rel='shortcut icon' href='./images/icon.webp' type='image/x-icon'>
     <script src='./sweetalert.min.js'></script>
 </head>
 <body>
@@ -47,9 +47,9 @@ echo "
 <head>
     <meta charset='UTF-8'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>AC - Shop - Delete Chapter</title>
+    <title>My - Bible App - Delete Chapter</title>
     <link rel='stylesheet' href='style.css'>
-    <link rel='shortcut icon' href='./images/logo.ico' type='image/x-icon'>
+    <link rel='shortcut icon' href='./images/icon.webp' type='image/x-icon'>
     <script src='./sweetalert.min.js'></script>
 </head>
 <body>
