@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 26, 2024 at 09:32 AM
+-- Generation Time: Nov 28, 2024 at 07:12 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -3953,7 +3953,92 @@ INSERT INTO `verses` (`verse_id`, `chapter_id`, `verse_number`, `text`) VALUES
 (2595, 90, 35, 'Moses could not enter the tent of meeting because the cloud had settled on it, and the glory of the Lord filled the tabernacle.'),
 (2596, 90, 36, 'In all the travels of the Israelites, whenever the cloud lifted from above the tabernacle, they would set out;'),
 (2597, 90, 37, 'but if the cloud did not lift, they did not set out—until the day it lifted.'),
-(2598, 90, 38, 'So the cloud of the Lord was over the tabernacle by day, and fire was in the cloud by night, in the sight of all the Israelites during all their travels.');
+(2598, 90, 38, 'So the cloud of the Lord was over the tabernacle by day, and fire was in the cloud by night, in the sight of all the Israelites during all their travels.'),
+(2599, 91, 1, 'The Lord called to Moses and spoke to him from the tent of meeting. He said,'),
+(2600, 91, 2, '“Speak to the Israelites and say to them: ‘When anyone among you brings an offering to the Lord, bring as your offering an animal from either the herd or the flock.'),
+(2601, 91, 3, '“‘If the offering is a burnt offering from the herd, you are to offer a male without defect. You must present it at the entrance to the tent of meeting so that it will be acceptable to the Lord.'),
+(2602, 91, 4, 'You are to lay your hand on the head of the burnt offering, and it will be accepted on your behalf to make atonement for you.'),
+(2603, 91, 5, 'You are to slaughter the young bull before the Lord, and then Aaron’s sons the priests shall bring the blood and splash it against the sides of the altar at the entrance to the tent of meeting.'),
+(2604, 91, 6, 'You are to skin the burnt offering and cut it into pieces.'),
+(2605, 91, 7, 'The sons of Aaron the priest are to put fire on the altar and arrange wood on the fire.'),
+(2606, 91, 8, 'Then Aaron’s sons the priests shall arrange the pieces, including the head and the fat, on the wood that is burning on the altar.'),
+(2607, 91, 9, 'You are to wash the internal organs and the legs with water, and the priest is to burn all of it on the altar. It is a burnt offering, a food offering, an aroma pleasing to the Lord.'),
+(2608, 91, 10, '“‘If the offering is a burnt offering from the flock, from either the sheep or the goats, you are to offer a male without defect.'),
+(2609, 91, 11, 'You are to slaughter it at the north side of the altar before the Lord, and Aaron’s sons the priests shall splash its blood against the sides of the altar.'),
+(2610, 91, 12, 'You are to cut it into pieces, and the priest shall arrange them, including the head and the fat, on the wood that is burning on the altar.'),
+(2611, 91, 13, 'You are to wash the internal organs and the legs with water, and the priest is to bring all of them and burn them on the altar. It is a burnt offering, a food offering, an aroma pleasing to the Lord.'),
+(2612, 91, 14, '“‘If the offering to the Lord is a burnt offering of birds, you are to offer a dove or a young pigeon.'),
+(2613, 91, 15, 'The priest shall bring it to the altar, wring off the head and burn it on the altar; its blood shall be drained out on the side of the altar.'),
+(2614, 91, 16, 'He is to remove the crop and the feathers and throw them down east of the altar where the ashes are.'),
+(2615, 91, 17, 'He shall tear it open by the wings, not dividing it completely, and then the priest shall burn it on the wood that is burning on the altar. It is a burnt offering, a food offering, an aroma pleasing to the Lord.'),
+(2616, 92, 1, '“‘When anyone brings a grain offering to the Lord, their offering is to be of the finest flour. They are to pour olive oil on it, put incense on it'),
+(2617, 92, 2, 'and take it to Aaron’s sons the priests. The priest shall take a handful of the flour and oil, together with all the incense, and burn this as a memorial portion on the altar, a food offering, an aroma pleasing to the Lord.'),
+(2618, 92, 3, 'The rest of the grain offering belongs to Aaron and his sons; it is a most holy part of the food offerings presented to the Lord.'),
+(2619, 92, 4, '“‘If you bring a grain offering baked in an oven, it is to consist of the finest flour: either thick loaves made without yeast and with olive oil mixed in, or thin loaves made without yeast and brushed with olive oil.'),
+(2620, 92, 5, 'If your grain offering is prepared on a griddle, it is to be made of the finest flour mixed with oil, and without yeast.'),
+(2621, 92, 6, 'Crumble it and pour oil on it; it is a grain offering.'),
+(2622, 92, 7, 'If your grain offering is cooked in a pan, it is to be made of the finest flour and some olive oil.'),
+(2623, 92, 8, 'Bring the grain offering made of these things to the Lord; present it to the priest, who shall take it to the altar.'),
+(2624, 92, 9, 'He shall take out the memorial portion from the grain offering and burn it on the altar as a food offering, an aroma pleasing to the Lord.'),
+(2625, 92, 10, 'The rest of the grain offering belongs to Aaron and his sons; it is a most holy part of the food offerings presented to the Lord.'),
+(2626, 92, 11, '“‘Every grain offering you bring to the Lord must be made without yeast, for you are not to burn any yeast or honey in a food offering presented to the Lord.'),
+(2627, 92, 12, 'You may bring them to the Lord as an offering of the firstfruits, but they are not to be offered on the altar as a pleasing aroma.'),
+(2628, 92, 13, 'Season all your grain offerings with salt. Do not leave the salt of the covenant of your God out of your grain offerings; add salt to all your offerings.'),
+(2629, 92, 14, '“‘If you bring a grain offering of firstfruits to the Lord, offer crushed heads of new grain roasted in the fire.'),
+(2630, 92, 15, 'Put oil and incense on it; it is a grain offering.'),
+(2631, 92, 16, 'The priest shall burn the memorial portion of the crushed grain and the oil, together with all the incense, as a food offering presented to the Lord.'),
+(2632, 93, 1, '“‘If your offering is a fellowship offering, and you offer an animal from the herd, whether male or female, you are to present it before the Lord without defect.'),
+(2633, 93, 2, 'You are to lay your hand on the head of your offering and slaughter it at the entrance to the tent of meeting. Then Aaron’s sons the priests shall splash the blood against the sides of the altar.'),
+(2634, 93, 3, 'From the fellowship offering you are to bring a food offering to the Lord: the internal organs and all the fat that is connected to them,'),
+(2635, 93, 4, 'both kidneys with the fat on them near the loins, and the long lobe of the liver, which you will remove with the kidneys.'),
+(2636, 93, 5, 'Then Aaron’s sons are to burn it on the altar on top of the burnt offering that is lying on the burning wood; it is a food offering, an aroma pleasing to the Lord.'),
+(2637, 93, 6, '“‘If you offer an animal from the flock as a fellowship offering to the Lord, you are to offer a male or female without defect.'),
+(2638, 93, 7, 'If you offer a lamb, you are to present it before the Lord,'),
+(2639, 93, 8, 'lay your hand on its head and slaughter it in front of the tent of meeting. Then Aaron’s sons shall splash its blood against the sides of the altar.'),
+(2640, 93, 9, 'From the fellowship offering you are to bring a food offering to the Lord: its fat, the entire fat tail cut off close to the backbone, the internal organs and all the fat that is connected to them,'),
+(2641, 93, 10, 'both kidneys with the fat on them near the loins, and the long lobe of the liver, which you will remove with the kidneys.'),
+(2642, 93, 11, 'The priest shall burn them on the altar as a food offering presented to the Lord.'),
+(2643, 93, 12, '“‘If your offering is a goat, you are to present it before the Lord,'),
+(2644, 93, 13, 'lay your hand on its head and slaughter it in front of the tent of meeting. Then Aaron’s sons shall splash its blood against the sides of the altar.'),
+(2645, 93, 14, 'From what you offer you are to present this food offering to the Lord: the internal organs and all the fat that is connected to them,'),
+(2646, 93, 15, 'both kidneys with the fat on them near the loins, and the long lobe of the liver, which you will remove with the kidneys.'),
+(2647, 93, 16, 'The priest shall burn them on the altar as a food offering, a pleasing aroma. All the fat is the Lord’s.'),
+(2648, 93, 17, '“‘This is a lasting ordinance for the generations to come, wherever you live: You must not eat any fat or any blood.’”'),
+(2649, 94, 1, 'The Lord said to Moses,'),
+(2650, 94, 2, '“Say to the Israelites: ‘When anyone sins unintentionally and does what is forbidden in any of the Lord’s commands—'),
+(2651, 94, 3, '“‘If the anointed priest sins, bringing guilt on the people, he must bring to the Lord a young bull without defect as a sin offering for the sin he has committed.'),
+(2652, 94, 4, 'He is to present the bull at the entrance to the tent of meeting before the Lord. He is to lay his hand on its head and slaughter it there before the Lord.'),
+(2653, 94, 5, 'Then the anointed priest shall take some of the bull’s blood and carry it into the tent of meeting.'),
+(2654, 94, 6, 'He is to dip his finger into the blood and sprinkle some of it seven times before the Lord, in front of the curtain of the sanctuary.'),
+(2655, 94, 7, 'The priest shall then put some of the blood on the horns of the altar of fragrant incense that is before the Lord in the tent of meeting. The rest of the bull’s blood he shall pour out at the base of the altar of burnt offering at the entrance to the tent of meeting.'),
+(2656, 94, 8, 'He shall remove all the fat from the bull of the sin offering—all the fat that is connected to the internal organs,'),
+(2657, 94, 9, 'both kidneys with the fat on them near the loins, and the long lobe of the liver, which he will remove with the kidneys—'),
+(2658, 94, 10, 'just as the fat is removed from the ox sacrificed as a fellowship offering. Then the priest shall burn them on the altar of burnt offering.'),
+(2659, 94, 11, 'But the hide of the bull and all its flesh, as well as the head and legs, the internal organs and intestines—'),
+(2660, 94, 12, 'that is, all the rest of the bull—he must take outside the camp to a place ceremonially clean, where the ashes are thrown, and burn it there in a wood fire on the ash heap.'),
+(2661, 94, 13, '“‘If the whole Israelite community sins unintentionally and does what is forbidden in any of the Lord’s commands, even though the community is unaware of the matter, when they realize their guilt'),
+(2662, 94, 14, 'and the sin they committed becomes known, the assembly must bring a young bull as a sin offering and present it before the tent of meeting.'),
+(2663, 94, 15, 'The elders of the community are to lay their hands on the bull’s head before the Lord, and the bull shall be slaughtered before the Lord.'),
+(2664, 94, 16, 'Then the anointed priest is to take some of the bull’s blood into the tent of meeting.'),
+(2665, 94, 17, 'He shall dip his finger into the blood and sprinkle it before the Lord seven times in front of the curtain.'),
+(2666, 94, 18, 'He is to put some of the blood on the horns of the altar that is before the Lord in the tent of meeting. The rest of the blood he shall pour out at the base of the altar of burnt offering at the entrance to the tent of meeting.'),
+(2667, 94, 19, 'He shall remove all the fat from it and burn it on the altar,'),
+(2668, 94, 20, 'and do with this bull just as he did with the bull for the sin offering. In this way the priest will make atonement for the community, and they will be forgiven.'),
+(2669, 94, 21, 'Then he shall take the bull outside the camp and burn it as he burned the first bull. This is the sin offering for the community.'),
+(2670, 94, 22, '“‘When a leader sins unintentionally and does what is forbidden in any of the commands of the Lord his God, when he realizes his guilt'),
+(2671, 94, 23, 'and the sin he has committed becomes known, he must bring as his offering a male goat without defect.'),
+(2672, 94, 24, 'He is to lay his hand on the goat’s head and slaughter it at the place where the burnt offering is slaughtered before the Lord. It is a sin offering.'),
+(2673, 94, 25, 'Then the priest shall take some of the blood of the sin offering with his finger and put it on the horns of the altar of burnt offering and pour out the rest of the blood at the base of the altar.'),
+(2674, 94, 26, 'He shall burn all the fat on the altar, as he burned the fat of the fellowship offering. In this way the priest will make atonement for the leader’s sin, and he will be forgiven.'),
+(2675, 94, 27, '“‘If any member of the community sins unintentionally and does what is forbidden in any of the Lord’s commands, when they realize their guilt'),
+(2676, 94, 28, 'and the sin they have committed becomes known, they must bring as their offering for the sin they committed a female goat without defect.'),
+(2677, 94, 29, 'They are to lay their hand on the head of the sin offering and slaughter it at the place of the burnt offering.'),
+(2678, 94, 30, 'Then the priest is to take some of the blood with his finger and put it on the horns of the altar of burnt offering and pour out the rest of the blood at the base of the altar.'),
+(2679, 94, 31, 'They shall remove all the fat, just as the fat is removed from the fellowship offering, and the priest shall burn it on the altar as an aroma pleasing to the Lord. In this way the priest will make atonement for them, and they will be forgiven.'),
+(2680, 94, 32, '“‘If someone brings a lamb as their sin offering, they are to bring a female without defect.'),
+(2681, 94, 33, 'They are to lay their hand on its head and slaughter it for a sin offering at the place where the burnt offering is slaughtered.'),
+(2682, 94, 34, 'Then the priest shall take some of the blood of the sin offering with his finger and put it on the horns of the altar of burnt offering and pour out the rest of the blood at the base of the altar.'),
+(2683, 94, 35, 'They shall remove all the fat, just as the fat is removed from the lamb of the fellowship offering, and the priest shall burn it on the altar on top of the food offerings presented to the Lord. In this way the priest will make atonement for them for the sin they have committed, and they will be forgiven.');
 
 --
 -- Indexes for dumped tables
@@ -4011,7 +4096,7 @@ ALTER TABLE `chapters`
 -- AUTO_INCREMENT for table `verses`
 --
 ALTER TABLE `verses`
-  MODIFY `verse_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2599;
+  MODIFY `verse_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2684;
 
 --
 -- Constraints for dumped tables
