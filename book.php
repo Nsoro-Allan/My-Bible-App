@@ -50,7 +50,7 @@ $chapters_query = $con->query("SELECT * FROM `chapters` WHERE `book_id` = '$book
             
             <form action="" method="POST">
 
-                <input type="search" name="search_value" placeholder="Search Bible Book..." required>
+                <input type="search" name="search_value" placeholder="Search For a Bible Book..." required>
 
                 <button type="submit" name="search">Search...</button>
 
