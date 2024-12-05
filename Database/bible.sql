@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 29, 2024 at 07:41 AM
+-- Generation Time: Dec 05, 2024 at 12:23 PM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -4176,7 +4176,39 @@ INSERT INTO `verses` (`verse_id`, `chapter_id`, `verse_number`, `text`) VALUES
 (2818, 100, 17, '“Why didn’t you eat the sin offering in the sanctuary area? It is most holy; it was given to you to take away the guilt of the community by making atonement for them before the Lord.'),
 (2819, 100, 18, 'Since its blood was not taken into the Holy Place, you should have eaten the goat in the sanctuary area, as I commanded.”'),
 (2820, 100, 19, 'Aaron replied to Moses, “Today they sacrificed their sin offering and their burnt offering before the Lord, but such things as this have happened to me. Would the Lord have been pleased if I had eaten the sin offering today?”'),
-(2821, 100, 20, 'When Moses heard this, he was satisfied.');
+(2821, 100, 20, 'When Moses heard this, he was satisfied.'),
+(2822, 101, 1, 'The Lord said to Moses and Aaron,'),
+(2823, 101, 2, '“Say to the Israelites: ‘Of all the animals that live on land, these are the ones you may eat:'),
+(2824, 101, 3, 'You may eat any animal that has a divided hoof and that chews the cud.'),
+(2825, 101, 4, '“‘There are some that only chew the cud or only have a divided hoof, but you must not eat them. The camel, though it chews the cud, does not have a divided hoof; it is ceremonially unclean for you.'),
+(2826, 101, 5, 'The hyrax, though it chews the cud, does not have a divided hoof; it is unclean for you.'),
+(2827, 101, 6, 'The rabbit, though it chews the cud, does not have a divided hoof; it is unclean for you.'),
+(2828, 101, 7, 'And the pig, though it has a divided hoof, does not chew the cud; it is unclean for you.'),
+(2829, 101, 8, 'You must not eat their meat or touch their carcasses; they are unclean for you.'),
+(2830, 101, 9, '“‘Of all the creatures living in the water of the seas and the streams you may eat any that have fins and scales.'),
+(2831, 101, 10, 'But all creatures in the seas or streams that do not have fins and scales—whether among all the swarming things or among all the other living creatures in the water—you are to regard as unclean.'),
+(2832, 101, 11, 'And since you are to regard them as unclean, you must not eat their meat; you must regard their carcasses as unclean.'),
+(2833, 101, 12, 'Anything living in the water that does not have fins and scales is to be regarded as unclean by you.'),
+(2834, 101, 13, '“‘These are the birds you are to regard as unclean and not eat because they are unclean: the eagle, the vulture, the black vulture,'),
+(2835, 101, 14, 'the red kite, any kind of black kite,'),
+(2836, 101, 15, 'any kind of raven,'),
+(2837, 101, 16, 'the horned owl, the screech owl, the gull, any kind of hawk,'),
+(2838, 101, 17, 'the little owl, the cormorant, the great owl,'),
+(2839, 101, 18, 'the white owl, the desert owl, the osprey,'),
+(2840, 101, 19, 'the stork, any kind of heron, the hoopoe and the bat.'),
+(2841, 101, 20, '“‘All flying insects that walk on all fours are to be regarded as unclean by you.'),
+(2842, 101, 21, 'There are, however, some flying insects that walk on all fours that you may eat: those that have jointed legs for hopping on the ground.'),
+(2843, 101, 22, 'Of these you may eat any kind of locust, katydid, cricket or grasshopper.'),
+(2844, 101, 23, 'But all other flying insects that have four legs you are to regard as unclean.'),
+(2845, 101, 24, '“‘You will make yourselves unclean by these; whoever touches their carcasses will be unclean till evening.'),
+(2846, 101, 25, 'Whoever picks up one of their carcasses must wash their clothes, and they will be unclean till evening.'),
+(2847, 101, 26, '“‘Every animal that does not have a divided hoof or that does not chew the cud is unclean for you; whoever touches the carcass of any of them will be unclean.'),
+(2848, 101, 27, 'Of all the animals that walk on all fours, those that walk on their paws are unclean for you; whoever touches their carcasses will be unclean till evening.'),
+(2849, 101, 28, 'Anyone who picks up their carcasses must wash their clothes, and they will be unclean till evening. These animals are unclean for you.'),
+(2850, 101, 29, '“‘Of the animals that move along the ground, these are unclean for you: the weasel, the rat, any kind of great lizard,'),
+(2851, 101, 30, 'the gecko, the monitor lizard, the wall lizard, the skink and the chameleon.'),
+(2852, 101, 31, 'Of all those that move along the ground, these are unclean for you. Whoever touches them when they are dead will be unclean till evening.'),
+(2853, 101, 32, 'When one of them dies and falls on something, that article, whatever its use, will be unclean, whether it is made of wood, cloth, hide or sackcloth. Put it in water; it will be unclean till evening, and then it will be clean.');
 
 --
 -- Indexes for dumped tables
@@ -4234,7 +4266,7 @@ ALTER TABLE `chapters`
 -- AUTO_INCREMENT for table `verses`
 --
 ALTER TABLE `verses`
-  MODIFY `verse_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2822;
+  MODIFY `verse_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2854;
 
 --
 -- Constraints for dumped tables
